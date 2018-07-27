@@ -22,12 +22,25 @@ markHigherBMI = markBMI > johnBMI
 console.log(markHigherBMI);
 **/
 
-var firstName = 'Jason';
-var age = 38;
-
+var firstName = 'Jason'; //var age = 38;
 //age >= 18 ? console.log(firstName = 'drinks beer.') : console.log(firstName = 'drinks juice.');
 
 
-var drink = age >= 18 ? 'beer' : 'juice';
+//var drink = age >= 18 ? 'beer' : 'juice';
+//
+//console.log(drink);
 
-console.log(drink);
+
+var job = 'teacher';
+
+switch (job) {
+    case 'teacher':
+        console.log(firstName + ' Teaches kids how to code.');
+        break;
+    case 'hobo with a shotgun':
+        console.log(firstName + ' Is the boss in the new world');
+    case 'developer':
+        console.log(firstName + ' cranks out the webpages on the interwebs');
+    default:
+        console.log('drinks beer');
+}
