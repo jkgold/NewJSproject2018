@@ -31,7 +31,7 @@ var firstName = 'Jason'; //var age = 38;
 //console.log(drink);
 
 
-var job = 'teacher';
+var job = 'hobo with a shot gun';
 
 switch (job) {
     case 'teacher':
